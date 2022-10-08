@@ -1,0 +1,6 @@
+import os
+file_name=input("Input the filename:")
+split_tup=os.path.splitext(file_name)
+filename=split_tup[0]
+fileext=split_tup[1]
+print("The extension of the filename is",fileext)
